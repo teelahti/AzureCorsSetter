@@ -3,7 +3,7 @@
 Simple [ScriptCS](http://scriptcs.net/) scripts to manage Azure storage account's CORS headers. 
 Created in frustration as there are no readymade methods in the Azure SDK.
 
-Many CORS headers that this script sets fixed; change setCors.csx to suit your needs. 
+Many CORS headers that this script sets are hard coded; change setCors.csx to suit your needs. 
 
 Methods: 
 
