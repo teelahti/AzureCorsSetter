@@ -19,8 +19,8 @@ Verbs are fixed in this version, change them directly in the script.
     
 An example 
 
-    scriptcs setCors.csx -- myaccount mylongkey http://app.foo.bar,http://app.fu.bar
-    scriptcs setCors.csx -- myaccount mylongkey *
+    scriptcs addCors.csx -- myaccount mylongkey http://app.foo.bar,http://app.fu.bar
+    scriptcs addCors.csx -- myaccount mylongkey *
     
 Note, that unfortunately CORS standard does not support star subdomains like http://*.foo.bar
 
